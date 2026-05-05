@@ -1,0 +1,51 @@
+.container{
+  display: flex;
+  height:200vh;
+
+}
+.left{
+  flex:1;
+  background-color: pink;
+  padding:15px;
+}
+.right{
+  flex:1;
+  background-color: pink;
+  padding: 15px;
+}
+.navigation-bar{
+text-align: right;
+  background-color: pink;
+  padding:10px;
+ 
+}
+.the-whole-page{
+  margin:0px;
+}
+.footer{
+  padding: 15px;
+  background-color: pink;
+  text-align: center;
+}
+.left h1{
+  color:rgba(130, 33, 33, 0.452);
+  text-align: center;
+  
+}
+.image{
+  align-items: center;
+ border: solid;
+  border-color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.left h3{
+  background-color: rgba(130, 33, 33, 0.452);
+  padding: 5px;
+}
+.right h3{
+  background-color: rgba(130, 33, 33, 0.452);
+  padding:5px;
+}
+  
